@@ -1,0 +1,52 @@
+d-flex{
+    display: flex;
+}
+
+jcc{
+    justify-content: center;
+}
+
+jcb{
+    justify-content: space-between;
+}
+
+aic{
+    align-items: center;
+}
+
+// 상단광고
+#top{
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    background-color: #8CBA32;
+    background-size: cover;
+ 
+   
+    .container{
+            display: flex;
+            align-items: center;
+        #mb-top-text{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                left: 30px;
+                margin-right: 20px;
+                
+            h5{
+                color: #111;
+                 
+               }
+          } 
+    
+
+    }
+    .close-btn{
+        right: 0;
+        top:0
+        
+
+        
+    }
+
+}

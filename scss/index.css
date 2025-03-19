@@ -1,0 +1,41 @@
+d-flex {
+  display: flex;
+}
+
+jcc {
+  justify-content: center;
+}
+
+jcb {
+  justify-content: space-between;
+}
+
+aic {
+  align-items: center;
+}
+
+#top {
+  justify-content: space-between;
+  padding: 10px;
+  position: relative;
+  background-color: #8CBA32;
+  background-size: cover;
+}
+#top .container {
+  display: flex;
+  align-items: center;
+}
+#top .container #mb-top-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 30px;
+  margin-right: 20px;
+}
+#top .container #mb-top-text h5 {
+  color: #111;
+}
+#top .close-btn {
+  right: 0;
+  top: 0;
+}
