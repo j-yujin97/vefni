@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'HakgyoansimDunggeunmiso_700';
+    src: url('/fonts/HakgyoansimDunggeunmisoTTF-B.woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+:root{
+     /* 컬러지정*/
+    --ve_sred: #FF9A79;
+   
+    /* 폰트사이즈 정하기 */
+   
+}
+body{
+    font-family: 'HakgyoansimDunggeunmiso_700' !important; 
+}
